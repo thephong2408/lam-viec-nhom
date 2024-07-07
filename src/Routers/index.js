@@ -1,15 +1,16 @@
 //public routes
 import Home from "../Pages/Home";
 import Login from "../Pages/Login";
+import DefaultLayout from "../components/Layouts/DefauLayout";
 const publicRoutes = [
   {
     path: "/",
-    component: Home,
+    component: Login,
+    layout: DefaultLayout,
   },
   {
-    path: "/login",
-    component: Login,
-    layout: null,
+    path: "/home",
+    component: Home,
   },
 ];
 

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 input::placeholder {
-    font-size: 25px;
-    color: #D9D9D9;
-    position: relative;
-    top: 3px;
+   font-weight: 100;
   }
+ 

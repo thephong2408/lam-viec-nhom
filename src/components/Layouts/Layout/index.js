@@ -1,6 +1,6 @@
-import Header from "../component/Header";
-import Sidebar from "../component/Sidebar";
-import Footer from "../component/Footer";
+import Header from "../../component/Header";
+import Footer from "../../component/Footer";
+import Sidebar from "../../component/Sidebar";
 function Layout({ children }) {
   return (
     <div>
